@@ -1,0 +1,28 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1F2937;
+
+}
+
+
+header{
+    background-color: #1F2937;
+    color: white;
+    padding: 0px 15%;
+}
+
+#navBar{
+   
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#headerFront{
+   
+    display: flex;
+    justify-content:center;
+
+}
