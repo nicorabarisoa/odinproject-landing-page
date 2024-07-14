@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: #1F2937;
+    font-family: "roboto";
 
 }
 
@@ -11,18 +12,58 @@ header{
     background-color: #1F2937;
     color: white;
     padding: 0px 15%;
+    
 }
 
 #navBar{
    
     display: flex;
     justify-content: space-between;
+    margin-bottom: 40px;
 
 }
+
+#lateralContainer{
+    margin: auto 0;
+}
+#lateralNav{
+    
+    display: flex;
+    gap:10px
+   
+
+}
+
+li{
+    list-style-type: none; 
+}
+
 
 #headerFront{
    
     display: flex;
     justify-content:center;
 
+}
+
+.front{
+    font-family: "roboto";
+    flex:1;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#heroMain{
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+button{
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color:#F9FAF8;
+    font-size: 15px;
+    font-weight: bold;
 }
