@@ -64,7 +64,6 @@ li {
 
 main {
   
-  height: 800px;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -115,7 +114,7 @@ main {
 .quoteContent{
   background-color: #E5E7EB;
   width: 100%;
-  height: 800px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -187,9 +186,18 @@ main {
 }
 
 .buttoning >button{
-  padding: 5px 30px;
+  padding: 10px 30px;
   color: white;
   background-color: #3882f6;
   border-radius: 5px;
   border: #f9faf8 solid 1px;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100px;
+  padding: 5px 0;
 }
