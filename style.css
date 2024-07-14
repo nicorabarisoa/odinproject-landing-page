@@ -1,69 +1,195 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1f2937;
+  font-family: "roboto";
+}
 
-body{
-    margin: 0;
-    padding: 0;
-    background-color: #1F2937;
-    font-family: "roboto";
+header {
+  background-color: #1f2937;
+  color: white;
+  padding: 0px 15%;
+  margin-bottom: 60px;
+}
 
+#navBar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+#lateralContainer {
+  margin: auto 0;
+}
+#lateralNav {
+  display: flex;
+  gap: 10px;
+}
+
+li {
+  list-style-type: none;
+}
+
+#headerFront {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+
+.front {
+  font-family: "roboto";
+  flex: 1;
+  font-size: 18px;
+  color: #e5e7eb;
+  overflow: hidden;
+}
+
+#blueImg {
+  width: 100%;
+}
+#heroMain {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.topButton {
+  background-color: #3882f6;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #f9faf8;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+main {
+  
+  height: 800px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
-header{
-    background-color: #1F2937;
-    color: white;
-    padding: 0px 15%;
-    
-}
 
-#navBar{
-   
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 40px;
+.mainContent {
+  padding: 50px 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 
 }
 
-#lateralContainer{
-    margin: auto 0;
-}
-#lateralNav{
-    
-    display: flex;
-    gap:10px
-   
+.squareImageContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 80px;
+ 
 
 }
 
-li{
-    list-style-type: none; 
+.squareImageContainer > li {
+  padding: 0;
+  width: 150px;
+}
+
+.square {
+  overflow: hidden;
+  border: #3882f6 solid ;
+  border-radius: 15px;
+  overflow: hidden;
+  object-fit: contain;
+  width: 150px;
+  height: 150px;
+}
+
+.square > img {
+  width: 100%;
+  height: 100%;
 }
 
 
-#headerFront{
-   
-    display: flex;
-    justify-content:center;
+.quoteContent{
+  background-color: #E5E7EB;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quoteContainer{
+ padding: 50px 25%;
+ display: flex;
+ flex-direction: column;
+}
+.quoteContainer > *{
+  margin: 0;
+ }
+#quote{
+  color: #1F2937;
+  font-size: 37px;
+  font-weight: 300;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+#quoter{
+  align-self: flex-end;
+  font-size: 25px;
+  font-weight: 400;
+
 
 }
 
-.front{
-    font-family: "roboto";
-    flex:1;
-    font-size: 18px;
-    color: #E5E7EB;
+.subcontent{
+  padding: 60px 18%;
 }
 
-#heroMain{
-    font-size: 48px;
-    color: #F9FAF8;
+.subContainer{
+  display: flex;
+  background-color: #3882f6;
+  border-radius: 15px;
+  color: #f9faf8;
+  height: 60px;
+  align-items: center;
+
+  padding: 30px 50px;
+  justify-content: center;
+
+}
+.texting{
+  flex: 2;
+  
+ 
 }
 
-button{
-    background-color: #3882F6;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    color:#F9FAF8;
-    font-size: 15px;
-    font-weight: bold;
+.texting >h1{
+ font-size: 20px;
+  
+ 
+}
+.texting >*{
+  margin: 0;
+  
+ 
+}
+.buttoning{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.buttoning >button{
+  padding: 5px 30px;
+  color: white;
+  background-color: #3882f6;
+  border-radius: 5px;
+  border: #f9faf8 solid 1px;
 }

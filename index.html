@@ -1,45 +1,76 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing page</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <div id="navBar">
-             <div >
-                 <h1>Header Logo</h1>
-             </div>
-             <div id="lateralContainer">
-                 <ul id="lateralNav">
-                    <li>Header link one</li>
-                    <li>Header link two</li>
-                    <li>Header link three</li>
-                 </ul>
-                 
-             </div>
+      <div id="navBar">
+        <div>
+          <h1>Header Logo</h1>
         </div>
-        <div id="headerFront">
-            <div class="front">
-                <h1 id="heroMain">This website is awesome</h1>
-                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-                <button>Sign up</button>
-            </div>
-            <div class="front">
-                <p> this is a placeholder for an image</p>
-            </div>
+        <div id="lateralContainer">
+          <ul id="lateralNav">
+            <li>Header link one</li>
+            <li>Header link two</li>
+            <li>Header link three</li>
+          </ul>
         </div>
+      </div>
+      <div id="headerFront">
+        <div class="front">
+          <h1 id="heroMain">This website is awesome</h1>
+          <p>
+            This website has some subtext that goes here under the main title.
+            It's a smaller font and the color is lower contrast
+          </p>
+          <button class="topButton">Sign up</button>
+        </div>
+        <div class="front">
+          <img
+            id="blueImg"
+            src="https://www.fodors.com/wp-content/uploads/2019/07/10_BlueCities__WhyisitBlue_iStock-1130246535.jpg"
+          />
+        </div>
+      </div>
     </header>
     <main>
+      <div class="mainContent" >
+        <div>
+          <h1>Some random information.</h1>
+        </div>
+       
+            <ul class="squareImageContainer">
+                <li><div class="square"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/31/10/11/blue-sea-beach-resort.jpg?w=700&h=-1&s=1"></div><p>this is some subtext under an illustration or image</p></li>
+                <li><div class="square"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/31/10/11/blue-sea-beach-resort.jpg?w=700&h=-1&s=1"></div><p>this is some subtext under an illustration or image</p></li>
+                <li><div class="square"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/31/10/11/blue-sea-beach-resort.jpg?w=700&h=-1&s=1"></div><p>this is some subtext under an illustration or image</p></li>
+                <li><div class="square"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/31/10/11/blue-sea-beach-resort.jpg?w=700&h=-1&s=1"></div><p>this is some subtext under an illustration or image</p></li>
+            </ul>
+       
+      </div>
+      <div class="quoteContent">
+        <div class="quoteContainer">
+            <p id="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+            <p id="quoter">-Thor, God of Thunder</p>
+        
+        </div>
+      <div class="subcontent">
+        <div class="subContainer">
+            <div class="texting"><h1>Call to action! It's time!</h1><p>Sign up for our product by clicking that button right over there!</p></div>
+            <div class="buttoning"><button class="bottomButton">Sign up</button></div>
+        </div>
 
+      </div>
     </main>
     <footer></footer>
-    
-</body>
+  </body>
 </html>
